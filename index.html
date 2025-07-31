@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们的公司</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1556740749-88795b80e5d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .card h2 {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>欢迎来到我们的公司</h1>
+</header>
+
+<nav>
+    <a href="#about">关于我们</a>
+    <a href="#services">服务</a>
+    <a href="#contact">联系我们</a>
+</nav>
+
+<div class="container">
+
+    <div class="hero">
+        <h1>探索未来科技</h1>
+    </div>
+
+    <section id="about">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518770681127-5fb54da65e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="关于我们">
+            <h2>关于我们</h2>
+            <p>我们是一家致力于提供优质服务的公司，专注于科技创新和用户体验。</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>我们的服务</h2>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518770681127-5fb54da65e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="服务一">
+            <h2>服务一</h2>
+            <p>提供高效的数据分析解决方案。</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518770681127-5fb54da65e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="服务二">
+            <h2>服务二</h2>
+            <p>定制化软件开发服务。</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518770681127-5fb54da65e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="服务三">
+            <h2>服务三</h2>
+            <p>全方位技术支持和维护。</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518770681127-5fb54da65e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="联系我们">
+            <h2>联系我们</h2>
+            <p>Email: info@ourcompany.com</p>
+            <p>Phone: +1234567890</p>
+            <p>Address: 123 Main St, Anytown, Anystate</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2023 我们的公司</p>
+</footer>
+
+</body>
+</html>
+
+
+
